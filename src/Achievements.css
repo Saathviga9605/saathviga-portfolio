@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@400;600&display=swap');
+
+.achievements-section {
+    padding: 60px 10vw;
+    background: radial-gradient(circle at center, #180033 0%, #0e061f 100%);
+    font-family: 'Prompt', sans-serif;
+    color: black;
+  }
+  
+  .section-title {
+    font-size: 2.8rem;
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 700;
+    color: #ffffff; /* keep title white for contrast */
+  }
+  
+  .timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: relative;
+    padding-left: 30px;
+    border-left: 4px solid #ffffff;
+  }
+  
+  .timeline-card {
+    background: #ffffff; /* white cards */
+    color: #000000;       /* black text */
+    padding: 20px 25px;
+    border-radius: 12px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  .timeline-card:hover {
+    transform: scale(1.05) rotate(-1deg);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.35);
+  }
+  
+  .timeline-card h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #000000;
+  }
+  
+  .timeline-card h4 {
+    margin: 10px 0;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #222222;
+  }
+  
+  .timeline-card ul {
+    margin-top: 10px;
+    padding-left: 20px;
+  }
+  
+  .timeline-card ul li {
+    font-size: 1rem;
+    color: #333333;
+    line-height: 1.6;
+  }
+  

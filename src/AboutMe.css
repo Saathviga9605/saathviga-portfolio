@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@400;600&display=swap');
+
+.quote-section {
+    margin-top: 60px;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 20px;
+    color: #000000;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+  }
+  
+  .quote-title {
+    font-size: 1.8rem;
+    color: #6a0dad;
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+  
+  .main-quote {
+    font-style: italic;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #333;
+    border-left: 4px solid #6a0dad;
+    padding-left: 20px;
+  }
+
+  .fun-facts {
+    margin-top: 60px;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 20px;
+    color: #000000;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+  }
+  
+  .fun-facts-title {
+    font-size: 2rem;
+    color: #6a0dad;
+    margin-bottom: 25px;
+    font-weight: bold;
+  }
+  
+  .facts-list {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+  }
+  
+  .facts-list li {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    position: relative;
+    padding-left: 25px;
+  }
+  
+  .facts-list li::before {
+    content: "★";
+    color: #6a0dad;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+  .about-section {
+    background: radial-gradient(circle at center, #180033 0%, #0e061f 100%);
+    color: #000000;
+    padding: 80px 20px;
+    font-family: 'Prompt', sans-serif;
+  }
+  
+  .about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .section-title {
+    font-size: 2.8rem;
+    color: #ffffff;
+    margin-bottom: 50px;
+    font-weight: bold;
+  }
+  
+  .about-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about-text {
+    flex: 1;
+    min-width: 300px;
+    max-width: 600px;
+    margin: 20px;
+    text-align: left;
+    color: #ffffff;
+    font-size: 1.1rem;
+    line-height: 1.8;
+  }
+  
+  .about-image {
+    flex: 1;
+    min-width: 250px;
+    max-width: 400px;
+    margin: 20px;
+  }
+  
+  .about-image img {
+    width: 350px;      /* You can adjust this value */
+    height: auto;
+    border-radius: 20px; /* Optional: smooth corners */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Optional: subtle shadow */
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .about-image img:hover {
+    transform: scale(1.05);
+  }
+  
+  
+  .about-image img:hover {
+    transform: scale(1.05) rotate(2deg);
+  }
+  

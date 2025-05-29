@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500;700;800&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Dosis', sans-serif;
+  background-color: #0e061f;
+  color: white;
+  overflow: hidden;
+}
+
+.home-container {
+  min-height: 100vh;
+  position: relative;
+  background: radial-gradient(circle at center, #180033 0%, #0e061f 100%);
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  backdrop-filter: blur(10px);
+  background: rgba(25, 0, 50, 0.6);
+  padding: 1rem;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 2.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #e0b3ff;
+  font-size: 1.1rem;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.navbar ul li a::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  height: 2px;
+  width: 0%;
+  background: linear-gradient(to right, #a362ea, #dd6dfc);
+  transition: width 0.4s ease;
+}
+
+.navbar ul li a:hover::after {
+  width: 100%;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 2rem;
+  position: relative;
+  z-index: 2;
+}
+
+.typing-text {  
+  font-size: 2rem;
+  font-weight: 600;
+  white-space: pre-wrap;
+  line-height: 1.6;
+  color: #e5c9ff;
+  background: linear-gradient(90deg, #c586ff, #ff9bff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: glow 2s infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 5px #aa70ff, 0 0 10px #d86cff;
+  }
+  to {
+    text-shadow: 0 0 10px #d86cff, 0 0 20px #ff9bff;
+  }
+}
+
+/* Spotlight effect */
+#spotlight {
+  position: fixed;
+  width: 200px;
+  height: 200px;
+  background: radial-gradient(circle, rgba(183,103,255,0.4) 0%, transparent 70%);
+  pointer-events: none;
+  border-radius: 50%;
+  z-index: 1;
+  transform: translate(-50%, -50%);
+  transition: left 0.05s ease, top 0.05s ease;
+}
+
+
+.scroll-button {
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #e3caff;
+    border: 2px solid #ae7aff;
+    border-radius: 30px;
+    background: transparent;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    backdrop-filter: blur(5px);
+    animation: pulse 2s infinite;
+  }
+  
+  .scroll-button:hover {
+    background: radial-gradient(circle at center, #b87eff, #814de4);
+    box-shadow: 0 0 15px #ae7aff;
+    color: white;
+    transform: scale(1.05);
+  }
+  
+  @keyframes pulse {
+    0% { box-shadow: 0 0 10px #9f60ff; }
+    50% { box-shadow: 0 0 20px #c497ff; }
+    100% { box-shadow: 0 0 10px #9f60ff; }
+  }
+  

@@ -1,0 +1,76 @@
+.projects-section {
+    background-color: #0d0a1c;
+    padding: 5rem 2rem;
+    color: #e0d4f7;
+    text-align: center;
+    font-family: 'Prompt', sans-serif;
+  }
+  
+  .projects-title {
+    font-size: 2.5rem;
+    color: #d6b5ff;
+    text-shadow: 0 0 10px #ab79ff;
+    margin-bottom: 3rem;
+  }
+  
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2.5rem;
+    justify-items: center;
+  }
+  
+  .project-card {
+    background: #1f1539;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 15px #a978ff;
+    transition: transform 0.4s ease, box-shadow 0.3s ease;
+    width: 100%;
+    max-width: 340px;
+    text-align: left;
+    position: relative;
+    padding-bottom: 1rem;
+  }
+  
+  .project-card:hover {
+    transform: scale(1.08) rotate(-1deg);
+    box-shadow: 0 0 30px #d2a7ff;
+    z-index: 10;
+  }
+  
+  .project-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-bottom: 4px solid #a978ff;
+  }
+  
+  .project-info {
+    padding: 1rem;
+  }
+  
+  .project-info h3 {
+    margin: 0.5rem 0;
+    font-size: 1.3rem;
+    color: #ffdcfe;
+  }
+  
+  .project-info p {
+    font-size: 0.95rem;
+    color: #e0d4f7;
+  }
+  
+  .project-info .tech {
+    font-size: 0.85rem;
+    color: #a7f1ff;
+    margin-top: 0.3rem;
+    font-style: italic;
+  }
+  
+  .project-info .date {
+    font-size: 0.8rem;
+    color: #d0bfff;
+    margin-top: 0.2rem;
+  }
+  

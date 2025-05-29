@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@400;600&display=swap');
+
+.journey-section {
+  padding: 4rem 2rem;
+  background: #0d0a1c;
+  color: #e0d4f7;
+  font-family: 'Prompt', sans-serif;
+  position: relative;
+}
+
+.journey-title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #d6b5ff;
+  margin-bottom: 3rem;
+  text-shadow: 0 0 10px #ab79ff;
+}
+
+.timeline {
+  position: relative;
+  margin: 0 auto;
+  padding-left: 40px;
+  max-width: 800px;
+  border-left: 2px solid #b877ff80;
+}
+
+.timeline-item {
+  margin-bottom: 3rem;
+  position: relative;
+}
+
+.timeline-marker {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: radial-gradient(circle at center, #d4a0ff 0%, #7e4fff 100%);
+  position: absolute;
+  left: -10px;
+  top: 5px;
+  box-shadow: 0 0 15px #aa60ff;
+}
+
+.timeline-content {
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.timeline-year {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #b88aff;
+}
+
+.timeline-heading {
+  font-size: 1.5rem;
+  color: #e8d4ff;
+  margin: 0.3rem 0;
+  font-weight: 600;
+}
+
+.timeline-details,
+.timeline-location {
+  font-size: 1rem;
+  color: #c7b7e6;
+}
