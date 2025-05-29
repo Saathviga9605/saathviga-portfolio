@@ -5,7 +5,7 @@ const projects = [
 
     {
       title: "Factshare",
-      image: "/assets/factshare.png",
+      image: process.env.PUBLIC_URL + "/assets/factshare.png",
       brief: "AI-powered fact-checker using Gemini & Google APIs with 92% accuracy and live news chatbot.",
       tech: "React, Flask, MongoDB, Gemini API, Fact Check API",
       date: "Feb - Mar 2025"
@@ -13,42 +13,42 @@ const projects = [
 
     {
       title: "HealthConnect",
-      image: "/assets/healthconnect.png",
+      image: process.env.PUBLIC_URL + "/assets/healthconnect.png",
       brief: "Hospital system for managing appointments, history & billing digitally.",
       tech: "Python, MySQL",
       date: "Sep - Nov 2024"
     },
     {
       title: "Event Management System",
-      image: "/assets/event-management.png",
+      image: process.env.PUBLIC_URL + "/assets/event-management.png",
       brief: "Organize and manage events with admin/organizer roles & analytics.",
       tech: "Python, Flask, React, Firebase",
       date: "Feb 2025 - April 2025"
     },
     {
       title: "NetGenius",
-      image: "/assets/netgenius.png",
+      image: process.env.PUBLIC_URL + "/assets/netgenius.png",
       brief: "NLP chatbot to automate routine network tasks and generate reports.",
       tech: "Python, Streamlit, NLP",
       date: "Jan - Feb 2025"
     },
     {
       title: "Agrofriendly",
-      image: "/assets/agrofriendly.png",
+      image: process.env.PUBLIC_URL + "/assets/agrofriendly.png",
       brief: "ML-based farming system for crop, price & yield predictions.",
       tech: "Python, Streamlit, HTML, CSS",
       date: "Apr - May 2024"
     },
     {
       title: "Parcel Service System",
-      image: "/assets/parcel.png",
+      image: process.env.PUBLIC_URL + "/assets/parcel.png",
       brief: "Parcel tracker with real-time updates & WhatsApp notifications.",
       tech: "Python, JSON",
       date: "Feb - Jun 2024"
     },
     {
       title: "Astro Escape",
-      image: "/assets/astro.png",
+      image: process.env.PUBLIC_URL + "/assets/astro.png",
       brief: "A cosmic adventure game with 3 mini-games and 200+ downloads.",
       tech: "C#, Unity",
       date: "Jul 2024"
