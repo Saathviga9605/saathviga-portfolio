@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/saathviga-portfolio/static/css/main.c23c1c92.css",
+    "main.js": "/saathviga-portfolio/static/js/main.21c1cc92.js",
+    "static/js/453.a4fcc280.chunk.js": "/saathviga-portfolio/static/js/453.a4fcc280.chunk.js",
+    "index.html": "/saathviga-portfolio/index.html",
+    "main.c23c1c92.css.map": "/saathviga-portfolio/static/css/main.c23c1c92.css.map",
+    "main.21c1cc92.js.map": "/saathviga-portfolio/static/js/main.21c1cc92.js.map",
+    "453.a4fcc280.chunk.js.map": "/saathviga-portfolio/static/js/453.a4fcc280.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c23c1c92.css",
+    "static/js/main.21c1cc92.js"
+  ]
+}
